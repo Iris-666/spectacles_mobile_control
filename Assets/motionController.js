@@ -1,3 +1,5 @@
+//@input SceneObject mySceneObj
+
 function debugObject(obj) {
     if (obj === null) return "null";
     if (obj === undefined) return "undefined";
@@ -19,6 +21,8 @@ function debugObject(obj) {
     return result;
 }
 
+
+
 const MotionControllerModule = require('LensStudio:MotionControllerModule');
 let options = MotionController.Options.create();
 options.motionType = MotionController.MotionType.SixDoF;
@@ -32,6 +36,7 @@ var lastPosition = null;
 var lastShakeTime = 0;
 var shakeThreshold = 5.0; // Adjust this based on sensitivity
 var minShakeInterval = 500; // milliseconds between valid shake events
+var shakeTime = 0;
 
 function detectShake(currentPosition) {
     var currentTime = getTime() * 1000; // ms
@@ -45,8 +50,16 @@ function detectShake(currentPosition) {
 
         if (distance > shakeThreshold && (currentTime - lastShakeTime > minShakeInterval)) {
             lastShakeTime = currentTime;
-            print("Shake detected by position change!");
+            shakeTime += 1;
+            print("Shake detected by position change!" + shakeTime);
             // Insert your shake response logic here
+           
+            var boxTransform = script.mySceneObj.getTransform();
+            var crrentScale = boxTransform.getLocalScale();
+            print(debugObject(crrentScale));
+            boxTransform.setLocalScale(new vec3(crrentScale.x + 1, crrentScale.y, crrentScale.z))
+            
+            
         }
     }
 

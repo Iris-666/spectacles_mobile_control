@@ -1,0 +1,33 @@
+- !<AssetImportMetadata/9f343812-1df9-4414-9221-070a29168950>
+  ImportedAssetIds:
+    2a5e592e-9c77-442b-bee5-6c5c51f5bfe5: !<reference> 27779574-3540-4095-b7d9-909d2c689de5
+    8bc02cfe-8a19-4c64-9bcc-01e9ab8dbfc7: !<reference> f29d729c-240d-48f7-b677-74c6df31932f
+    d2e95651-bfcd-40de-a8e3-f425b79a4699: !<reference> b8bc0634-2539-4e51-91e8-eb4f4ce993f3
+    538a5921-f024-4662-97a6-d9b67ca7ae8f: !<reference> 1c615d9d-c97f-4e88-9286-1c230905eb14
+    fa70f91c-c7a5-4b2d-a8a7-0d731575d36f: !<reference> a61cc1b1-1838-4518-8dfc-e6a73be69d01
+    57e854a1-dd33-4ffa-ad5e-9f01860d9d24: !<reference> 99f8363a-dded-45f2-b3f4-525320e08763
+    9cdcdf3b-b0ce-441e-b5cc-632bb41118ee: !<reference> 5d298aa7-df98-4367-bd0f-ec1d1fc6496b
+    cf797f94-f220-4716-8a9e-90e04bd0626b: !<reference> 119fe709-3bce-4e18-9e13-50d92cdf3c45
+    589632a6-446d-47b5-bec6-2036bab041cc: !<reference> 84806155-2f19-47bd-a6b8-cd21d7a44dda
+    dab08865-90fd-47b0-983a-3384651cf47b: !<reference> 2c67f95b-7bb8-436d-883b-907a0f0458c0
+    20a04d52-93bb-4fe7-97d0-57f26172420e: !<reference> 10d2e372-0c97-42cf-ae13-c5f8db684f9b
+    6b6ee041-da10-4e6c-8e2d-0fa8e7b63a06: !<reference> 66eb01fb-14bd-4275-8374-2c6a957d99e5
+    0579f735-fb77-4e8c-950c-2403cb7bd5ed: !<reference> 6f398da5-47e6-48ae-a995-05194c86c5bc
+    92de08b4-51c1-48b7-9d5e-6ada0cc2d00c: !<reference> fc96e2a2-e573-44ff-9c75-4084c5d21e26
+    08993d53-7b58-40bd-81af-ff1d94cbc8fa: !<reference> 85c24958-77fc-4950-b950-d4f884416962
+    7c117be2-5b7d-43c2-84d3-9b6d5e5efb58: !<reference> c7040f8f-2be6-4b52-8c44-54016821814b
+    44f97b35-ce0d-4831-811a-fbfadf24320e: !<reference> 6c24ac4c-84c9-44e0-a06d-191cb45fa92c
+    2fd4959b-239a-4855-8d9f-1c4a19f6f0d9: !<reference> 14fe3405-524e-4a30-bbcb-05c67e6ae745
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> 6f398da5-47e6-48ae-a995-05194c86c5bc
+  PackageType: PackedNativePackageRoot
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: b89l8PoS8IWImSYmRg48b
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
